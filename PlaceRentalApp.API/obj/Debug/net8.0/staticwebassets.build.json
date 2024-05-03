@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "JrTB5y3+gs9ldUqDGjpS9K5B84HvHvbAgW9hyCHrePE=",
+  "Source": "PlaceRentalApp.API",
+  "BasePath": "_content/PlaceRentalApp.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,17 @@
+C:\PlaceRentalApp\PlaceRentalApp.Application\bin\Debug\net8.0\PlaceRentalApp.Application.deps.json
+C:\PlaceRentalApp\PlaceRentalApp.Application\bin\Debug\net8.0\PlaceRentalApp.Application.dll
+C:\PlaceRentalApp\PlaceRentalApp.Application\bin\Debug\net8.0\PlaceRentalApp.Application.pdb
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.Application.AssemblyInfoInputs.cache
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.Application.AssemblyInfo.cs
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.Application.csproj.CoreCompileInputs.cache
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.Application.dll
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\refint\PlaceRentalApp.Application.dll
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.Application.pdb
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\ref\PlaceRentalApp.Application.dll
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.Application.csproj.AssemblyReference.cache
+C:\PlaceRentalApp\PlaceRentalApp.Application\bin\Debug\net8.0\PlaceRentalApp.Core.dll
+C:\PlaceRentalApp\PlaceRentalApp.Application\bin\Debug\net8.0\PlaceRentalApp.Infraestructure.dll
+C:\PlaceRentalApp\PlaceRentalApp.Application\bin\Debug\net8.0\PlaceRentalApp.Core.pdb
+C:\PlaceRentalApp\PlaceRentalApp.Application\bin\Debug\net8.0\PlaceRentalApp.Infraestructure.pdb
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.Application.csproj.CopyComplete

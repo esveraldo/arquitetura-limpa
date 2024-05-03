@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PlaceRentalApp.API.props" />
+</Project>
