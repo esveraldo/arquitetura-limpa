@@ -13,8 +13,8 @@ namespace PlaceRentalApp.Application.Services
     {
         void Book(int id, CreateBookInputModel model);
         void Delete(int id);
-        List<Place> GetAllAvailable(string search, DateTime startDate, DateTime endDate);
-        Place? GetById(int id);
+        List<PlaceViewModel> GetAllAvailable(string search, DateTime startDate, DateTime endDate);
+        PlaceDetailsViewModel? GetById(int id);
         int Insert(CreatePlaceInputModel model);
         void InsertAmenity(int id, CreatePlaceAmenityInputModel model);
         void Update(int id, UpdatePlaceInputModel model);

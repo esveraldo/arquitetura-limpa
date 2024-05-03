@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zRTbXr5GLOmhr9OWIUZi+AP4bVq9EcrNL8aW5B+Z5P+AH82bYQV/HsOZlmuwWwNP+GYIsv+xqhf2kighVlujiQ==",
+  "dgSpecHash": "osOKjLAnN8oCd41TTC/x7R22+36oIr+SAQ5axDsbkeTAgL7+sFYhCyGs+tLzm+4aU1mgvmSRCxFsg6L647j4Qw==",
   "success": true,
-  "projectFilePath": "C:\\PlaceRentalApp\\PlaceRentalApp.Infraestructure\\PlaceRentalApp.Infraestructure.csproj",
+  "projectFilePath": "C:\\arquitetura-limpa\\PlaceRentalApp.Infraestructure\\PlaceRentalApp.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\esver\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\esver\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -4161,11 +4161,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\PlaceRentalApp\\PlaceRentalApp.Infraestructure\\PlaceRentalApp.Infraestructure.csproj",
+      "projectUniqueName": "C:\\arquitetura-limpa\\PlaceRentalApp.Infraestructure\\PlaceRentalApp.Infraestructure.csproj",
       "projectName": "PlaceRentalApp.Infraestructure",
-      "projectPath": "C:\\PlaceRentalApp\\PlaceRentalApp.Infraestructure\\PlaceRentalApp.Infraestructure.csproj",
+      "projectPath": "C:\\arquitetura-limpa\\PlaceRentalApp.Infraestructure\\PlaceRentalApp.Infraestructure.csproj",
       "packagesPath": "C:\\Users\\esver\\.nuget\\packages\\",
-      "outputPath": "C:\\PlaceRentalApp\\PlaceRentalApp.Infraestructure\\obj\\",
+      "outputPath": "C:\\arquitetura-limpa\\PlaceRentalApp.Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4190,8 +4190,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\PlaceRentalApp\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj": {
-              "projectPath": "C:\\PlaceRentalApp\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj"
+            "C:\\arquitetura-limpa\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj": {
+              "projectPath": "C:\\arquitetura-limpa\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj"
             }
           }
         }
@@ -4245,7 +4245,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
