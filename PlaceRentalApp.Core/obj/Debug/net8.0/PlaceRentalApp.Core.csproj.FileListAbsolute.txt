@@ -9,3 +9,15 @@ C:\PlaceRentalApp\PlaceRentalApp.Core\obj\Debug\net8.0\PlaceRentalApp.Core.dll
 C:\PlaceRentalApp\PlaceRentalApp.Core\obj\Debug\net8.0\refint\PlaceRentalApp.Core.dll
 C:\PlaceRentalApp\PlaceRentalApp.Core\obj\Debug\net8.0\PlaceRentalApp.Core.pdb
 C:\PlaceRentalApp\PlaceRentalApp.Core\obj\Debug\net8.0\ref\PlaceRentalApp.Core.dll
+C:\arquitetura-limpa\PlaceRentalApp.Core\bin\Debug\net8.0\PlaceRentalApp.Core.deps.json
+C:\arquitetura-limpa\PlaceRentalApp.Core\bin\Debug\net8.0\PlaceRentalApp.Core.dll
+C:\arquitetura-limpa\PlaceRentalApp.Core\bin\Debug\net8.0\PlaceRentalApp.Core.pdb
+C:\arquitetura-limpa\PlaceRentalApp.Core\obj\Debug\net8.0\PlaceRentalApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\arquitetura-limpa\PlaceRentalApp.Core\obj\Debug\net8.0\PlaceRentalApp.Core.AssemblyInfoInputs.cache
+C:\arquitetura-limpa\PlaceRentalApp.Core\obj\Debug\net8.0\PlaceRentalApp.Core.AssemblyInfo.cs
+C:\arquitetura-limpa\PlaceRentalApp.Core\obj\Debug\net8.0\PlaceRentalApp.Core.csproj.CoreCompileInputs.cache
+C:\arquitetura-limpa\PlaceRentalApp.Core\obj\Debug\net8.0\PlaceRentalApp.Core.sourcelink.json
+C:\arquitetura-limpa\PlaceRentalApp.Core\obj\Debug\net8.0\PlaceRentalApp.Core.dll
+C:\arquitetura-limpa\PlaceRentalApp.Core\obj\Debug\net8.0\refint\PlaceRentalApp.Core.dll
+C:\arquitetura-limpa\PlaceRentalApp.Core\obj\Debug\net8.0\PlaceRentalApp.Core.pdb
+C:\arquitetura-limpa\PlaceRentalApp.Core\obj\Debug\net8.0\ref\PlaceRentalApp.Core.dll
