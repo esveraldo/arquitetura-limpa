@@ -286,3 +286,4 @@ C:\arquitetura-limpa\PlaceRentalApp.API\obj\Debug\net8.0\PlaceRentalApp.API.pdb
 C:\arquitetura-limpa\PlaceRentalApp.API\obj\Debug\net8.0\PlaceRentalApp.API.genruntimeconfig.cache
 C:\arquitetura-limpa\PlaceRentalApp.API\obj\Debug\net8.0\ref\PlaceRentalApp.API.dll
 C:\PlaceRentalApp\PlaceRentalApp.API\obj\Debug\net8.0\PlaceRentalApp.API.sourcelink.json
+C:\arquitetura-limpa\PlaceRentalApp.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

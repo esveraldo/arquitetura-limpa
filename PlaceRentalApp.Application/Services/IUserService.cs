@@ -12,5 +12,7 @@ namespace PlaceRentalApp.Application.Services
     {
         User? GetById(int id);
         int Insert(CreateUserInputModel model);
+
+        ResultViewModel<LoginViewModel?> Login(loginInputModel model);
     }
 }

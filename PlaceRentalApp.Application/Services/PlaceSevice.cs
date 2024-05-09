@@ -2,6 +2,7 @@
 using PlaceRentalApp.Application.Exceptions;
 using PlaceRentalApp.Application.Models;
 using PlaceRentalApp.Core.Entities;
+using PlaceRentalApp.Core.Repositories;
 using PlaceRentalApp.Infraestructure.Persistence;
 using System;
 using System.Collections.Generic;
@@ -13,32 +14,31 @@ namespace PlaceRentalApp.Application.Services
 {
     public class PlaceSevice : IPlaceService
     {
-        private readonly PlaceRentalDbContext _context;
+        private readonly IPlaceRepository _placeRepository;
 
-        public PlaceSevice(PlaceRentalDbContext context)
+        public PlaceSevice(IPlaceRepository placeRepository)
         {
-            _context = context;
+            _placeRepository = placeRepository;
         }
 
         public ResultViewModel Book(int id, CreateBookInputModel model)
         {
-            var exists = _context.Places.Any(p => p.Id == id);
-            if (!exists)
+            var place = _placeRepository.GetById(id);
+            if (place is null)
             {
                 return ResultViewModel.Error("Not Found");
             }
 
             var book = new PlaceBook(model.IdUser, model.IdPlace, model.StartDate, model.EndDate, model.Comments);
 
-            _context.PlaceBooks.Add(book);
-            _context.SaveChanges();
+            _placeRepository.AddBook(book);
 
             return ResultViewModel.Success();
         }
 
         public ResultViewModel Delete(int id)
         {
-            var place = _context.Places.SingleOrDefault(p => p.Id == id);
+            var place = _placeRepository.GetById(id);
             if (place is null)
             {
                 //throw new NotFoundException();
@@ -47,24 +47,14 @@ namespace PlaceRentalApp.Application.Services
 
             place.SetAsDeleted();
 
-            _context.Places.Update(place);
-            _context.SaveChanges();
+            _placeRepository.Delete(place);
 
             return ResultViewModel.Success();
         }
 
         public ResultViewModel<List<PlaceViewModel>> GetAllAvailable(string search, DateTime startDate, DateTime endDate)
         {
-            var availablePlaces = _context
-                .Places
-                .Include(p => p.User)
-                .Where(p =>
-                p.Title.Contains(search) &&
-                !p.Books.Any(b =>
-                (startDate >= b.StartDate && startDate <= b.EndDate) ||
-                (endDate >= b.StartDate && endDate <= b.EndDate) ||
-                (startDate <= b.StartDate && endDate >= b.EndDate)) && !p.IsDeleted)
-                .ToList();
+            var availablePlaces = _placeRepository.GetAllAvailable(search, startDate, endDate);
 
             var model = availablePlaces.Select(PlaceViewModel.FromEntity).ToList(); 
 
@@ -73,10 +63,7 @@ namespace PlaceRentalApp.Application.Services
 
         public ResultViewModel<PlaceDetailsViewModel?> GetById(int id)
         {
-            var place = _context.Places
-                .Include (p => p.Amenities)
-                .Include (p => p.User)
-                .SingleOrDefault(p => p.Id == id);
+            var place = _placeRepository.GetById(id);
             
             return place is null ? ResultViewModel<PlaceDetailsViewModel?>.Error("Not found") : ResultViewModel<PlaceDetailsViewModel?>.Success(PlaceDetailsViewModel.FromEntity(place));
         }
@@ -103,39 +90,37 @@ namespace PlaceRentalApp.Application.Services
                 model.CreatedBy
                 );
 
-            _context.Places.Add(place);
-            _context.SaveChanges();
+            _placeRepository.Add( place );
 
             return ResultViewModel<int>.Success(place.Id);
         }
 
         public ResultViewModel InsertAmenity(int id, CreatePlaceAmenityInputModel model)
         {
-            var exists = _context.Places.Any(p => p.Id == id);
-            if (!exists)
+            var place = _placeRepository.GetById(id);
+            if (place is null)
             {
                 //throw new NotFoundException();
-                return ResultViewModel.Error("Not found");
+                return ResultViewModel.Error("Not Found");
             }
+
             var amenity = new PlaceAmenity(model.Description, id);
-            _context.PlaceAmenities.Add(amenity);
-            _context.SaveChanges();
+            _placeRepository.AddAmenity(amenity);
 
             return ResultViewModel.Success();
         }
 
         public ResultViewModel Update(int id, UpdatePlaceInputModel model)
         {
-            var place = _context.Places.SingleOrDefault(p => p.Id == id);
+            var place = _placeRepository.GetById(id);
             if (place is null)
             {
                 //throw new NotFoundException();
-                return ResultViewModel.Error("Not found");
+                return ResultViewModel.Error("Not Found");
             }
 
             place.Update(model.Title, model.Description, model.DailyPrice);
-            _context.Places.Update(place);
-            _context.SaveChanges();
+            _placeRepository.Update(place);
 
             return ResultViewModel.Success();
         }

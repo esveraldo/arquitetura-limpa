@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PlaceRentalApp\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj": {}
+    "C:\\arquitetura-limpa\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj": {}
   },
   "projects": {
-    "C:\\PlaceRentalApp\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj": {
+    "C:\\arquitetura-limpa\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PlaceRentalApp\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj",
+        "projectUniqueName": "C:\\arquitetura-limpa\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj",
         "projectName": "PlaceRentalApp.Core",
-        "projectPath": "C:\\PlaceRentalApp\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj",
+        "projectPath": "C:\\arquitetura-limpa\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj",
         "packagesPath": "C:\\Users\\esver\\.nuget\\packages\\",
-        "outputPath": "C:\\PlaceRentalApp\\PlaceRentalApp.Core\\obj\\",
+        "outputPath": "C:\\arquitetura-limpa\\PlaceRentalApp.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -63,7 +63,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
