@@ -1,8 +1,7 @@
-using Microsoft.EntityFrameworkCore;
 using PlaceRentalApp.API.Configuration;
 using PlaceRentalApp.API.MIddleware;
-using PlaceRentalApp.Application.Services;
-using PlaceRentalApp.Infraestructure.Persistence;
+using PlaceRentalApp.Application;
+using PlaceRentalApp.Infraestructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,11 +17,8 @@ builder.Services.AddExceptionHandler<ApiExceptionHandler>();
 builder.Services.AddProblemDetails();
 
 //builder.Services.AddDbContext<PlaceRentalDbContext>(o => o.UseInMemoryDatabase("PlaceRentalDb"));
-var connectionString = builder.Configuration.GetConnectionString("PlaceRentalCs");
-builder.Services.AddDbContext<PlaceRentalDbContext>(o => o.UseSqlServer(connectionString));
 
-builder.Services.AddScoped<IPlaceService, PlaceSevice>();
-builder.Services.AddScoped<IUserService, UserService>();
+builder.Services.AddApplication().AddInfraestructure(builder.Configuration);
 
 var app = builder.Build();
 

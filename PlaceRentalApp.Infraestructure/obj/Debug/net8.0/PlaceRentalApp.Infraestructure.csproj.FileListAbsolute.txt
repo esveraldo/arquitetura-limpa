@@ -33,3 +33,4 @@ C:\arquitetura-limpa\PlaceRentalApp.Infraestructure\obj\Debug\net8.0\refint\Plac
 C:\arquitetura-limpa\PlaceRentalApp.Infraestructure\obj\Debug\net8.0\PlaceRentalApp.Infraestructure.pdb
 C:\arquitetura-limpa\PlaceRentalApp.Infraestructure\obj\Debug\net8.0\PlaceRentalApp.Infraestructure.genruntimeconfig.cache
 C:\arquitetura-limpa\PlaceRentalApp.Infraestructure\obj\Debug\net8.0\ref\PlaceRentalApp.Infraestructure.dll
+C:\PlaceRentalApp\PlaceRentalApp.Infraestructure\obj\Debug\net8.0\PlaceRentalApp.Infraestructure.sourcelink.json

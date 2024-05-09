@@ -33,3 +33,4 @@ C:\arquitetura-limpa\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.
 C:\arquitetura-limpa\PlaceRentalApp.Application\obj\Debug\net8.0\refint\PlaceRentalApp.Application.dll
 C:\arquitetura-limpa\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.Application.pdb
 C:\arquitetura-limpa\PlaceRentalApp.Application\obj\Debug\net8.0\ref\PlaceRentalApp.Application.dll
+C:\PlaceRentalApp\PlaceRentalApp.Application\obj\Debug\net8.0\PlaceRentalApp.Application.sourcelink.json

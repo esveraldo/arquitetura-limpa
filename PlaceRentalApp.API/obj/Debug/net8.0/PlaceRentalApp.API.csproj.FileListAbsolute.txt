@@ -285,3 +285,4 @@ C:\arquitetura-limpa\PlaceRentalApp.API\obj\Debug\net8.0\refint\PlaceRentalApp.A
 C:\arquitetura-limpa\PlaceRentalApp.API\obj\Debug\net8.0\PlaceRentalApp.API.pdb
 C:\arquitetura-limpa\PlaceRentalApp.API\obj\Debug\net8.0\PlaceRentalApp.API.genruntimeconfig.cache
 C:\arquitetura-limpa\PlaceRentalApp.API\obj\Debug\net8.0\ref\PlaceRentalApp.API.dll
+C:\PlaceRentalApp\PlaceRentalApp.API\obj\Debug\net8.0\PlaceRentalApp.API.sourcelink.json

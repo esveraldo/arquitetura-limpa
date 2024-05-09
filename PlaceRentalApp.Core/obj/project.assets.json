@@ -16,11 +16,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\arquitetura-limpa\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj",
+      "projectUniqueName": "C:\\PlaceRentalApp\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj",
       "projectName": "PlaceRentalApp.Core",
-      "projectPath": "C:\\arquitetura-limpa\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj",
+      "projectPath": "C:\\PlaceRentalApp\\PlaceRentalApp.Core\\PlaceRentalApp.Core.csproj",
       "packagesPath": "C:\\Users\\esver\\.nuget\\packages\\",
-      "outputPath": "C:\\arquitetura-limpa\\PlaceRentalApp.Core\\obj\\",
+      "outputPath": "C:\\PlaceRentalApp\\PlaceRentalApp.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -72,7 +72,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.104/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
