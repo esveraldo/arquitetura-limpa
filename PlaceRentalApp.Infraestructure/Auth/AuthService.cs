@@ -39,22 +39,28 @@ namespace PlaceRentalApp.Infraestructure.Auth
         {
             var issuer = _configuration["Jwt:Issuer"];
             var audience = _configuration["Jwt:Audience"];
+            var TKey = _configuration["Jwt:Key"];
 
             var Key = new SymmetricSecurityKey(
                 Encoding.UTF8.GetBytes(_configuration["Jwt:Key"]));
             var credentials = new SigningCredentials(Key, SecurityAlgorithms.HmacSha256);
 
-            var claims = new List<Claim>
+            //var claims = new List<Claim>
+            var claims = new Claim[]
             {
-                new Claim("userName", email),
-                new Claim(ClaimTypes.Role, role)
+                //new Claim("userName", email),
+                //new Claim(ClaimTypes.Role, role)
+
+                new Claim("name", email),
+                new Claim("roles", role)
             };
 
             var token = new JwtSecurityToken(
                 issuer: issuer,
                 audience: audience,
                 expires: DateTime.Now.AddMinutes(120),
-                claims: claims 
+                claims: claims,
+                signingCredentials : credentials
                 );
 
             var handler = new JwtSecurityTokenHandler();

@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using PlaceRentalApp.Application.Models;
 using PlaceRentalApp.Application.Services;
 using PlaceRentalApp.Core.Entities;
@@ -20,6 +21,7 @@ namespace PlaceRentalApp.API.Controllers
         }
 
         [HttpGet]
+        [AllowAnonymous]
         public IActionResult Get(string search, DateTime startDate, DateTime endDate/*, IOptions<PlacesConfiguration> options*/)
         {
             //var config = options.Value;
@@ -32,6 +34,7 @@ namespace PlaceRentalApp.API.Controllers
         }
 
         [HttpGet("{id}")]
+        [Authorize(Roles = "admin")]
         public IActionResult GetById(int id)
         {
             var result = _placeService.GetById(id);

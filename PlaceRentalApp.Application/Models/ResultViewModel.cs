@@ -10,7 +10,8 @@ namespace PlaceRentalApp.Application.Models
     {
         public ResultViewModel(string message = "", bool isSuccess = true)
         {
-
+            Message = message;
+            IsSuccess = isSuccess;
         }
         public string Message { get; set; }
         public bool IsSuccess { get; set; }

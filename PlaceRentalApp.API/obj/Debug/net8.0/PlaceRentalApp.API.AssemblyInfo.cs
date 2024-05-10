@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlaceRentalApp.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7fddc8b2a161bddf16883f3663c46740443040ba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d49ff45a73861983c00c0cdb1d30d0bed470b4dc")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlaceRentalApp.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlaceRentalApp.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
